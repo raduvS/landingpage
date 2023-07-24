@@ -7,6 +7,7 @@ body {
 }
 
 /* nav bar */
+
 .top {
     display: flex;
     gap: 10px;
@@ -19,12 +20,12 @@ body {
     color: #F9faf8;
     font-weight: bold;
     font-size: 24px;
-    padding: 20px 0px 20px 20px;
+    padding: 20px 0px 20px 120px;
 }
 
 .toplinks {
     margin-left: auto;
-    padding: 0px 20px 0px 0px;  
+    padding: 0px 120px 0px 0px;  
     align-self: center;
 }
 
@@ -36,7 +37,9 @@ body {
     padding: 10px;
     align-items: center;
 }
+
 /* Second part of the header */
+
 .top2 {
     display: flex;
     background-color: #1f2937;
@@ -51,7 +54,7 @@ body {
     padding: 0px 40px 0px 0px;
 }
 
-.image {
+.image img {
     flex: auto;
     background-color: #999999; 
     width: 500px;
@@ -106,7 +109,16 @@ button {
     margin: 5px 20px 0px 20px;
 }
 
+.content p {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 6px 15px 0px 25px;
+}
+
 .main h2 {
     font-size: 34px;
     font-weight: 800;
 }
+
+
