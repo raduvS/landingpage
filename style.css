@@ -4,6 +4,7 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Roboto', arial;
+    flex: auto;
 }
 
 /* nav bar */
@@ -183,7 +184,7 @@ h3 {
     font-family: 'Roboto', arial;
     border-color: #fff;
     border-radius: 8px;
-    background-color: #3882F6;
+    background-color: #e13a2e;
     padding: 5px 25px;
     font-size: 15px;
 }
