@@ -20,12 +20,12 @@ body {
     color: #F9faf8;
     font-weight: bold;
     font-size: 24px;
-    padding: 20px 0px 20px 120px;
+    padding: 20px 0px 20px 0px;
 }
 
 .toplinks {
     margin-left: auto;
-    padding: 0px 120px 0px 0px;  
+    padding: 0px 0px 0px 0px;  
     align-self: center;
 }
 
@@ -77,6 +77,7 @@ button {
 
 .toptext h1 {
     font-size: 48px;
+    font-size: 48px;
     font-weight: bolder;
     color: #F9faf8;
     margin: 0;
@@ -121,4 +122,77 @@ button {
     font-weight: 800;
 }
 
+/* part 3 the quote area */
 
+.main2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    justify-content: center;
+    padding: 50px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-family: "Light Italic";
+    text-align: left;
+}
+
+.quotename {
+    display: flex;
+    align-self: flex-end;
+    font-size: 25px;
+}
+
+/* par 4 call to action */
+
+.sign-up {
+    background-color: #3882F6 ;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-color: none;
+}
+
+.sign-item {
+    flex: 1;
+}
+
+.signs-text {
+    text-align: left;
+}
+
+.signs-text p {
+    color: #fff;
+    opacity: 0.7;
+    margin: 5px 30px 30px 50px;
+}
+
+h3 {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+}
+
+.signs-button button {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 15px;
+}
+
+/* footer */
+
+.footer {
+    background-color: #1F2937;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    padding: 2px;
+}
