@@ -149,7 +149,7 @@ button {
 /* par 4 call to action */
 
 .sign-up {
-    background-color: #3882F6 ;
+    background-color: #e25e26 ;
     margin: 50px 200px;
     padding: 10px 80px;
     display: flex;
@@ -184,7 +184,7 @@ h3 {
     font-family: 'Roboto', arial;
     border-color: #fff;
     border-radius: 8px;
-    background-color: #e13a2e;
+    background-color: #3882F6;
     padding: 5px 25px;
     font-size: 15px;
 }
