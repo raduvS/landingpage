@@ -149,13 +149,15 @@ button {
 /* par 4 call to action */
 
 .sign-up {
-    background-color: #e25e26 ;
+    background-color: #3882F6 ;
     margin: 50px 200px;
     padding: 10px 80px;
     display: flex;
     align-items: center;
     border-radius: 5px;
     border-color: none;
+    width: fit-content;
+    height: fit-content;
 }
 
 .sign-item {
